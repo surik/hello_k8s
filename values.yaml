@@ -1,0 +1,9 @@
+image:
+    repository: hello_k8s
+    tag: latest
+    pullPolicy: IfNotPresent
+
+postgresql:
+  nameOverride: postgres
+  postgresqlDatabase: hello_k8s_repo
+  postgresqlPassword: pass

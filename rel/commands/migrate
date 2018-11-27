@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+release_ctl eval --mfa "HelloK8s.Release.Tasks.Migrator.migrate/0"
